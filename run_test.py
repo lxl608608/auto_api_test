@@ -26,8 +26,9 @@ def run_tests():
 if __name__ == "__main__":
     run_tests()
     
-"""echo [步骤5] 运行测试
+"""
+echo [步骤5] 运行测试
 pytest -v -s --alluredir=./allure-results --html=./report/html_report.html --self-contained-html
-
 echo [步骤6] 生成Allure报告
-E:\app\allure\allure-2.35.1\bin\allure.bat generate ./allure-results -o ./allure-report --clean"""
+E:\app\allure\allure-2.35.1\bin\allure.bat generate ./allure-results -o ./allure-report --clean
+"""
