@@ -8,9 +8,9 @@ def run_tests():
     result1 = os.system(pytest_cmd)
     
     if result1 == 0:
-        print("✅ pytest测试执行成功")
+        print("pytest测试执行成功")
     else:
-        print("❌ pytest测试执行失败")
+        print("pytest测试执行失败")
         return
     
     # 执行allure命令
@@ -19,9 +19,9 @@ def run_tests():
     result2 = os.system(allure_cmd)
     
     if result2 == 0:
-        print("✅ Allure报告生成成功")
+        print("Allure报告生成成功")
     else:
-        print("❌ Allure报告生成失败")
+        print("Allure报告生成失败")
 
 if __name__ == "__main__":
     run_tests()
