@@ -3,6 +3,9 @@
         "addopts",
         "alluredir",
         "pytest",
-        "testpaths"
+        "rerunfailures",
+        "testpaths",
+        "urllib",
+        "xdist"
     ]
 }
